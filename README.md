@@ -10,6 +10,7 @@ Aşağıdaki raporlar Karate ile yapılan API testlerinin sonuçlarını göster
 - Bu rapor, OMDB API üzerinden The Batman filmini aramak için yapılan testi gösteriyor.  
 - API çağrısı doğru şekilde çalıştı ve Search[0].Title The Batman olarak doğrulandı.  
 - Test başarılı şekilde geçti.  
+- Başarılı status kodunun ardından ilgili fimin imdbIDsi ekrana yazdırıldı ve bir result objesine bu imdb değeri bir diğer feature dosyasında kullanılmak üzere oluşturuldu.
 
 ---
 
@@ -22,6 +23,7 @@ Aşağıdaki raporlar Karate ile yapılan API testlerinin sonuçlarını göster
 - API yanıtındaki Title ve Year doğrulandı.  
 - Ayrıca, Ratings array’inden Rotten Tomatoes puanı alındı ve yazdırıldı.  
 - Test başarılı şekilde tamamlandı.  
+- Not: Burada Batman  
 
 ---
 
